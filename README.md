@@ -76,7 +76,7 @@ This project is about coding a C library. It will contain a lot of general purpo
 | ```size_t ft_strlcat(char *dst, char *src, size_t dstsize)``` | adds dstzie - strlen(dstzie) - 1 chars to dst from src                | none   |
 | ```size_t ft_strlcpy(char *dst, char *src, size_t dstsize)``` | copys dstzie - 1 chars from dst to src                                | none   |
 | ```char *ft_strmapi(char *s, char (*f)(unsigned int, char)9``` | apllies function f on every char  of s                                | none   |
-| ```size_t ft_strlcpy(char *dst, char *src, size_t dstsize)``` | returns of first difference of src and dst (0 if no difference accured| none   |
+| ```int ft_strncmp(const char *s1, const char *s2, size_t n);``` | returns of first difference of src and dst (0 if no difference accured| none   |
 | ```size_t ft_strlen(const char *s)```                         | returns the length of a string s                                      | none   |
 | ```char *ft_strnstr(const char *haystack, char *needle, size_t len)```| finds the needle in the haystack                              | none   |
 | ```char *ft_substr(char *s, unsigned int start, size_t len)```| creates a substring of s from start to start + len                    | malloc |
